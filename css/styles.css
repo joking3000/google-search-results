@@ -83,12 +83,22 @@ span.site {
 
 p {
   line-height: 1;
+  color: rgb(84, 84, 84);
 }
 
 div.results {
   padding: 16px;
 }
 
-div.results p {
+span.date {
+  color: rgb(128, 128, 128);
+}
 
+div.results p {
+  line-height: 1.4;
+  margin-bottom: 26px;
+}
+
+strong {
+  font-weight: bold;
 }
