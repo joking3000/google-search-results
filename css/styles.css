@@ -1,1 +1,16 @@
-  
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+div.main-area {
+  margin: 140px 0;
+  margin-left: 150px;
+  width: 632px;
+}
+
+div.main-area .info {
+  padding: 0 16px;
+  line-height: 43px;
+  color: rgb(128, 128, 128);
+}
