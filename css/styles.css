@@ -220,28 +220,48 @@ div.top div.logo {
 
 div.top div.search {
   height: 44px;
-  width: 637px;
+  width: 632px;
   margin-top: 20px;
-  padding-left: 7px;
+  margin-left: 7px;
+  position: relative;
 }
 
 
 div.top div.search input {
-  position: relative;
-  height: 95%;
-  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  right:0;
+  height: 100%;
+  width: 632px;
   border: 0;
   border-radius: 2px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
   transition: 200ms;
+  padding: 0;
+  padding-left: 16px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
 }
 
 div.top div.search input:hover, div.top div.search input:focus {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
+div.search button {
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  right: 0;
+  vertical-align: top;
+  height: 44px;
+  padding: 1px 16px 0 8px;
+  margin: 0;
+}
+
 div.search span {
   display: inline-block;
   height: 24px;
   width: 24px;
+  fill: rgb(66, 133, 244);
 }
