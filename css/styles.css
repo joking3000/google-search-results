@@ -196,24 +196,64 @@ div.pages * {
 
 /* TOP NAVIGATION */
 div.top {
+  top: 0;
   position: absolute;
   background-color: rgb(250, 250, 250);
-  top: 0;
-  /* font-size: 0px; */
-  /* padding-top: 22px; */
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 1100px;
+}
+div.top div {
+  box-sizing: inherit;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border: 1px dotted grey;
 }
 
-div.top .logo img {
+div.top .left {
+  height: 122px;
+  width: 150px;
+  /* background-color: blue; */
+  float: left;
+}
+div.top .center {
+  height: 122px;
+  width: 632px;
+  /* background-color: yellow; */
+}
+
+div.top .right {
+  height: 122px;
+  /* background-color: orange; */
+  width: calc(100% - 632px - 150px);
+  float: right;
+}
+
+div.top .center .search {
+  height: 64px;
+  width: 100%;
+  /* background-color: green; */
+}
+
+div.top .center .tabs {
+  /* background-color: purple; */
+  height: calc(100% - 64px);
+  width: 100%;
+}
+
+/* div.top .logo img {
   width: 120px;
   height: 44px;
   padding-left: 13px;
-  /* padding-top: 22px; */
-}
-div.top .logo a {
+  padding-top: 22px;
+} */
+
+/* div.top .logo a {
   float: left;
   display: inline-block;
   /* clear: both; */
-}
+/* }
 
 div.top div {
   display: inline-block;
@@ -224,7 +264,7 @@ div.top div.search {
   width: 632px;
   border: 1px dotted black;
   /* margin-top: 20px; */
-  float: left;
+  /* float: left;
   clear: both;
 }
 
@@ -235,4 +275,4 @@ div.top div.search input {
   border: 0;
   padding: 0;
   margin: 0;
-}
+} */ */ */
