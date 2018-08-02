@@ -87,7 +87,7 @@ p {
 }
 
 div.results {
-  padding: 16px;
+  padding: 16px 0 16px 16px;
 }
 
 span.date {
@@ -101,4 +101,29 @@ div.results p {
 
 strong {
   font-weight: bold;
+}
+
+div.related {
+  padding-left: 16px;
+}
+
+div.related h2 {
+  color: rgb(34, 34, 34);
+  font-size: 18px;
+  line-height: 18px;
+  padding-bottom: 8px;
+  margin-bottom: 11px;
+}
+
+div.related a {
+  color: rgb(26, 13, 171);
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  display: block;
+  padding: 3px 32px 3px 0;
+}
+
+div.related div.left {
+  float: left;
 }
