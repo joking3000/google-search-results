@@ -199,40 +199,43 @@ div.top {
   position: absolute;
   background-color: rgb(250, 250, 250);
   top: 0;
-  /* font-size: 0px; */
-  /* padding-top: 22px; */
+  box-sizing: border-box;
+}
+
+div.top div {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: inherit;
 }
 
 div.top .logo img {
   width: 120px;
   height: 44px;
-  padding-left: 13px;
-  /* padding-top: 22px; */
 }
-div.top .logo a {
+div.top div.logo {
   float: left;
-  display: inline-block;
-  /* clear: both; */
-}
-
-div.top div {
-  display: inline-block;
+  padding: 4px 10px 0 13px;
+  margin-top: 18px;
 }
 
 div.top div.search {
   height: 44px;
-  width: 632px;
-  border: 1px dotted black;
-  /* margin-top: 20px; */
-  float: left;
-  clear: both;
+  width: 637px;
+  margin-top: 20px;
+  padding-left: 7px;
 }
+
 
 div.top div.search input {
   position: relative;
-  height: 100%;
+  height: 95%;
   width: 100%;
   border: 0;
-  padding: 0;
-  margin: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+  transition: 200ms;
+}
+
+div.top div.search input:hover, div.top div.search input:focus {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
