@@ -4,7 +4,7 @@ body {
 }
 
 div.main-area {
-  margin: 140px 0;
+  margin: 123px 0;
   margin-left: 150px;
   width: 632px;
 }
@@ -13,4 +13,82 @@ div.main-area .info {
   padding: 0 16px;
   line-height: 43px;
   color: rgb(128, 128, 128);
+  margin-bottom: 9px;
+}
+
+div.main-area .featured-snippet {
+  position: relative;
+  color: rgb(34, 34, 34);
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+  0 0 0 1px rgba(0,0,0,0.08);
+  padding: 16px;
+  line-height: 1.2;
+  font-size: 16px;
+  margin-bottom: 29px;
+}
+
+div.main-area .featured-snippet h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+div.main-area .featured-snippet ol {
+  list-style-type: decimal;
+  padding: 0 20px;
+}
+
+div.main-area .featured-snippet li {
+  margin-bottom: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+a.more-items {
+  color: rgb(119, 119, 119);
+  font-size: 14px;
+  padding: 7px 20px;
+  display: inline-block;
+}
+
+p.results a {
+  color: rgb(26, 13, 171);
+  font-size: 18px;
+  display: inline-block;
+  line-height: 21px;
+}
+
+.featured-snippet p {
+  margin-top: 15px;
+}
+
+span.site {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgb(0, 102, 33);
+  display: block;
+  padding-bottom: 2px;
+}
+
+.featured-snippet span.site {
+  padding-top: -8px;
+}
+
+p {
+  line-height: 1;
+}
+
+div.results {
+  padding: 16px;
+}
+
+div.results p {
+
 }
