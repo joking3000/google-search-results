@@ -239,3 +239,9 @@ div.top div.search input {
 div.top div.search input:hover, div.top div.search input:focus {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
+
+div.search span {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
