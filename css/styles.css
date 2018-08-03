@@ -343,5 +343,11 @@ div.top div.tabs a.first {
   border-bottom: 3px solid RGB(26, 115, 232);
   font-weight: bold;
   color: RGB(26, 115, 232);
-  padding-right: 16px;
+}
+
+div.top div.right-tabs {
+  margin-right: -7px;
+}
+div.top div.right-tabs a {
+  padding-left: 8px; 
 }
