@@ -505,22 +505,26 @@ div.top div.search:hover input{
 
 .results .results .site {
   position: relative;
-  padding-bottom: 1px;
+  padding-bottom: 0;
   padding-top: 1px;
+  margin-bottom: -1px;
 }
 
 .results .results .site::after {
   content: "  ";
   position: relative;
-  /* float: right; */
   display: inline-block;
   border-style: solid;
   border-width: 5px 4px 0 4px;
   border-color: transparent;
   border-top-color: rgb(0, 89, 30);
-  /* background-color: yellow; */
   width: 0px;
   height: 0px;
   margin-bottom: 3px;
   margin-left: 6px;
+}
+
+div.results p.results {
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
