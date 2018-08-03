@@ -418,9 +418,24 @@ div.footer .location .exact span {
   vertical-align: middle;
 }
 
-div.footer .location .exact a {
+div.footer a {
   color: rgb(119, 119, 119);
 }
-div.footer .location .exact a:hover {
+div.footer a:hover {
   color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+div.footer .links {
+  box-sizing: border-box;
+  padding-left: 166px;
+  padding-top: 14px;
+  display: inline-block;
+  height: 41px;
+}
+
+div.footer .links a {
+  display: inline-block;
+  padding-right: 27px;
+  float: left;
 }
