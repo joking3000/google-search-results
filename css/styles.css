@@ -456,3 +456,7 @@ div.pages-container {
 div.pages-container .pages .last {
   width: 80px;
 }
+
+div.related {
+  margin: -1px 0 1px;
+}
