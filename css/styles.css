@@ -460,3 +460,7 @@ div.pages-container .pages .last {
 div.related {
   margin: -1px 0 1px;
 }
+
+div.pages a {
+  color: rgb(66, 133, 244);
+}
