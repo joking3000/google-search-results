@@ -464,3 +464,37 @@ div.related {
 div.pages a {
   color: rgb(66, 133, 244);
 }
+
+div.results p.results {
+  max-width: 600px;
+}
+
+div.snippet-footer a {
+  display: inline-block;
+  float: right;
+  color: rgb(119, 119, 119);
+  fill: rgb(158, 158, 158);
+  padding-right: 16px;
+  font-size: 12px;
+}
+div.snippet-footer a.question-m {
+  height: 16px; width: 16px;
+  padding-right: 8px;
+  margin-top: -1px;
+}
+div.snippet-footer a.flag {
+  height: 14px; width: 14px;
+  padding-right: 8px;
+  padding-left: 6px;
+  margin-top: -1px;
+}
+
+div.main-area div.featured-snippet {
+  margin-bottom: 0;
+  /* padding-bottom: 0; */
+}
+
+div.snippet-footer {
+  padding-top: 5px;
+  margin-bottom: 24px;
+}
