@@ -528,3 +528,7 @@ div.results p.results {
   line-height: 1.5;
   margin-bottom: 25px;
 }
+
+html {
+  width: 100%;
+}
